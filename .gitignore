@@ -1,0 +1,11 @@
+node_modules
+.env
+nodemon.json
+server.cert
+server.key
+notes.txt
+Auth.txt
+paginationjs.txt
+queryparams.txt
+db.txt
+2nd optimization by groupby.txt
