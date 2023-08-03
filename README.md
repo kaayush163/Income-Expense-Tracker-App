@@ -12,8 +12,8 @@ Requirements
  3. AWS S3, RDS,EC2 
     
 Setup to run the Project on VS Code(Git Bash Terminal)
-  -$ git clone https://github.com/kaayush163/Income-Expense-Tracker-App.git
-  -$ cd Income-Expense-Tracker-App   
-  -$ npm i
-  -$ Change Database Username and Password in util/database.js file
-  -$ npm start   (here The app starts!!!)
+  1. $ git clone https://github.com/kaayush163/Income-Expense-Tracker-App.git
+  2. $ cd Income-Expense-Tracker-App   
+  3. $ npm i
+  4. $ Change Database Username and Password in util/database.js file
+  5. $ npm start   (here The app starts!!!)
