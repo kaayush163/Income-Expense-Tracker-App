@@ -4,7 +4,7 @@ const S3helper = require('../services/S3services');
 exports.getUserLeaderboard = async(req,res) => {
     try{  
         const leaderboardofusers = await User.findAll({   
-            order: [['totalExpenses', 'DESC']]
+            order: [['totalBalance', 'DESC']]
         })
 
         res.status(200).json(leaderboardofusers);
