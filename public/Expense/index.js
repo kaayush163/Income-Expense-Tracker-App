@@ -228,7 +228,7 @@ function showLeaderboard(){
             leaderboardElem.innerHTML+= '<h1>Leader Board</h1>';
     
             LeaderboardArray.data.forEach((userDetails) => {
-                leaderboardElem.innerHTML+= `<li>Name:${userDetails.name} Total Balance Money:${userDetails.totalExpenses}</li>`  ///first we were using total_amountbalance which get from expense table and present in premium controller but now we dont nee to traverse expense table anymore we have done get expense controller changed to get total expense directly in user table
+                leaderboardElem.innerHTML+= `<li>Name:${userDetails.name} Total Balance Money:${userDetails.totalBalance}</li>`  ///first we were using total_amountbalance which get from expense table and present in premium controller but now we dont nee to traverse expense table anymore we have done get expense controller changed to get total expense directly in user table
                  /// we get userDetails.total expense directly gfrom user table we no need to trace again and again the expense table and calcultae sum of amounts income and expense
                              //task 12 now instead of calculating total expense by traversing in the expense table of the same user doing more expense 
                                                                                                                                   //we can simply take total expense from user table the computtaion has become fast we have don esignup controlelrs u can revise this for sure!!!
