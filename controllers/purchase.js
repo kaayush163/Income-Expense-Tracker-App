@@ -1,3 +1,4 @@
+//backend of razorpay integration
 const jwt = require("jsonwebtoken");
 const Razorpay = require('razorpay');
 const Order = require('../models/order');
